@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://kit.fontawesome.com/9aec96d44b.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">KevinTorvalds</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#title">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#pricing">Tickets</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#footer">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#"></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="row">
+    <div class="col-lg-6">
+      <h1 class="big-heading">Road to ethihad stadium👀</h1>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+
+    <div class="col-lg-6">
+      <img class="title-image" src="images/bluemoonPng.png" alt="iphone-mockup">
+    </div>
+
+  </div>
+  </div>
+  </section>
+
+  <div class="jumbotron">
+    <h1>Hello, Cityzens!!!</h1>
+    <p>Let's me sing...</p>
+    <br>
+    <p>Blue Moon,You saw me standing alone... Without a dream in my heart,without a love of my own.</p>
+    <p>Nah,nah,nah,nah,nah,nah,nah,nah,nah CITY</p>
+    <p><a class="btn btn-primary btn-lg" href="#players" role="button">Learn more</a></p>
+  </div>
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, even your little children could do it.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">24 hours service</h3>
+          <p>Can send Messages everytime when you wish to.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+          <p>We will tell you when we need employees for our company.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Testimonials -->
+ <section class="colored-section" id="players">
+
+   <div id="player-carousel" class="carousel slide" data-ride="false">
+     <div class="carousel-inner">
+       <div class="carousel-item active container-fluid">
+         <h2 class="player-text">I love Manchester City,and I will do anything for this club.</h2>
+         <img class="player-image" src="images/kevinDebruyne.jpg" alt="kevin-profile">
+         <em>Kevin DeBruyne, Belgium.</em>
+       </div>
+       <div class="carousel-item container-fluid">
+         <h2 class="player-text">I came this club for breaking the records.</h2>
+         <img class="player-image" src="images/haaland.jpg" alt="haaland-profile">
+         <em>Erling Braut Haaland, Norway.</em>
+       </div>
+       <div class="carousel-item container-fluid">
+         <h2 class="player-text">I will defence for City's Back perfectly.</h2>
+         <img class="player-image" src="images/johnStones.jpg" alt="johnStones-profile">
+         <em>John Stones, England.</em>
+       </div>
+     </div>
+     <a class="carousel-control-prev" href="#player-carousel" role="button" data-slide="prev">
+   <span class="carousel-control-prev-icon"></span>
+     </a>
+     <a class="carousel-control-next" href="#player-carousel" role="button" data-slide="next">
+   <span class="carousel-control-next-icon"></span>
+     </a>
+   </div>
+ </section>
+
+ <div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading">Fun Facts about Manchester City?</div>
+  <div class="panel-body">
+    <p>👇👇👇👇👇👇👇👇👇👇👇</p>
+  </div>
+
+  <!-- List group -->
+  <ul class="list-group">
+    <li class="list-group-item">Manuel Akanji is like a mathematics calculator.</li>
+    <li class="list-group-item">Kalvin Philips is over-weight!</li>
+    <li class="list-group-item">Foden and Grealish are perfect Left wingers.</li>
+    <li class="list-group-item">I like man city because it's blue.That's all :3.</li>
+    <li class="list-group-item">Pep is a genius.</li>
+  </ul>
+</div>
+
+ <!-- Press -->
+ <section class="colored-section" id="press">
+   <img class="press-logo" src="images/pepchampion.jpg" alt="epl-logo">
+   <img class="press-logo" src="images/facup.jpg" alt="fa-logo">
+   <img class="press-logo" src="images/eflcup.png" alt="efl-logo">
+   <img class="press-logo" src="images/comshield.jpg" alt="comshield-logo">
+
+ </section>
+ <!-- Pricing -->
+ <section class="white-section" id="pricing">
+
+   <h2 class="section-heading">A Plan For Ethihad stadium football Match</h2>
+   <p>Simple and affordable price plans for you</p>
+
+   <div class="row">
+
+     <div class="pricing-column col-lg-4 col-md-6">
+       <div class="card">
+         <div class="card-header">
+           <h3>Regular Price</h3>
+         </div>
+         <div class="card-body">
+           <h2 class="price-text">$20</h2>
+           <p>For One person </p>
+
+           <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+         </div>
+       </div>
+     </div>
+
+     <div class="pricing-column col-lg-4 col-md-6">
+       <div class="card">
+         <div class="card-header">
+           <h3>Discount Price</h3>
+         </div>
+         <div class="card-body">
+           <h2 class="price-text">$47</h2>
+           <p>For One couple and One person</p>
+
+           <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+         </div>
+       </div>
+     </div>
+
+     <div class="pricing-column col-lg-4">
+       <div class="card">
+         <div class="card-header">
+           <h3>Second Discount</h3>
+         </div>
+         <div class="card-body">
+           <h2 class="price-text">$80</h2>
+           <p>For 5 people.</p>
+           <p>Additional Foods Included.</p>
+           <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- Call to Action -->
+ <section class="colored-section" id="cta">
+
+   <div class="container-fluid">
+
+     <h3 class="big-heading">Don't Wait for tommorrow.Download our app today and keep in touch with update our team news.</h3>
+     <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+     <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
+   </div>
+ </section>
+
+</div>
+
+ <!-- Footer -->
+ <footer class="white-section" id="footer">
+   <div class="container-fluid">
+     <i class="social-icon fab fa-facebook-f"></i>
+     <i class="social-icon fab fa-twitter"></i>
+     <i class="social-icon fab fa-instagram"></i>
+     <i class="social-icon fas fa-envelope"></i>
+
+     <p>© Copyright BlueMoon 2023 </p>
+   </div>
+ </footer>
+
+  </body>
+</html>
